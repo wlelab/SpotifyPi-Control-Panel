@@ -520,7 +520,7 @@ async fn show_dialog<W: IsA<gtk::Window>>(window: W, message: String) {
         .title("Alert")
         .text("Message")
         .secondary_text(&message)
-        .window_position(gtk::WindowPosition::Center)
+        .window_position(gtk::WindowPosition::CenterOnParent)
         .build();
     dialog.run_future().await;
     dialog.close();
