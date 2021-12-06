@@ -46,7 +46,7 @@
     ```
 5. Run app:
     - On **Windows**, open `target\release` directory, double click `spotifypi-control-panel.exe`.
-    - On **Linux** or **macOS**, run `target/release/spotifypi-control-panel` from `Terminal`.
+    - On **Linux** or **macOS**, run `./target/release/spotifypi-control-panel` from `Terminal`.
 
 <br>
 
